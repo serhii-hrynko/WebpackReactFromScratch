@@ -10,7 +10,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
       - name: Install dependencies
@@ -19,3 +18,13 @@ jobs:
         run: npm run test
       - name: Run build
         run: npm run build:prod
+
+  approval:
+    name: Protected
+    needs: [build]
+    runs-on: ubuntu-latest
+    environment:
+      name: Protected
+    steps:
+      - name: Protected
+        run: npm install
