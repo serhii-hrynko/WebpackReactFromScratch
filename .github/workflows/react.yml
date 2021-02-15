@@ -9,13 +9,13 @@ on:
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
       - name: Install dependencies
-      run: npm install
+        run: npm install
       - name: Run tests
-      run: npm run test
+        run: npm run test
       - name: Run build
-      run: npm run build:prod
+        run: npm run build:prod
