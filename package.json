@@ -82,5 +82,20 @@
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "main": "src/index.tsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serhii-hrynko/WebpackReactFromScratch.git"
+  },
+  "keywords": [
+    "react",
+    "webpack"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serhii-hrynko/WebpackReactFromScratch/issues"
+  },
+  "homepage": "https://github.com/serhii-hrynko/WebpackReactFromScratch#readme",
+  "description": ""
 }
