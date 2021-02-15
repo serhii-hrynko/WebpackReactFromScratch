@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Config.tsx Config snapshot 1`] = `
+<div
+  className="config"
+>
+  Config
+  <code>
+    {}
+  </code>
+</div>
+`;

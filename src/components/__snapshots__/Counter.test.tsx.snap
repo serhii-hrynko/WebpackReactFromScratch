@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Counter.tsx Counter snapshot 1`] = `
+<div
+  className="counterWrapper"
+>
+  Counter
+  <div
+    className="counterContent"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Increment
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      Decrement
+    </button>
+    <code>
+      0
+    </code>
+  </div>
+</div>
+`;

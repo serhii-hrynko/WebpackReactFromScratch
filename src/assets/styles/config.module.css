@@ -1,0 +1,10 @@
+.config {
+    color: green;
+
+    & code {
+        display: block;
+        padding: 0.5rem;
+        background-color: #eee;
+        color: #000;
+    }
+}

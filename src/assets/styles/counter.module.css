@@ -1,0 +1,21 @@
+.counterWrapper {
+    margin-top: 1.5rem;
+    color: blue;
+
+}
+
+.counterContent {
+    display: flex;
+
+    & button {
+        margin-right: 0.5rem;
+    }
+
+    & code {
+        display: block;
+        padding: 0.5rem;
+        background-color: #eee;
+        color: #000;
+        width: 56px;
+    }
+}
