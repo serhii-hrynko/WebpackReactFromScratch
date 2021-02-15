@@ -22,7 +22,7 @@ describe('components/Counter.tsx', () => {
         act(() => {
             incrementButton.props.onClick();
         });
-        expect(getCodeElementText()).toBe('1');
+        expect(getCodeElementText()).toBe('2');
 
         const decrementButton = component.root.find((node) => node.children[0] === 'Decrement');
         act(() => {
