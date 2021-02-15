@@ -62,14 +62,14 @@ const cssLoader = (test, exclude, useCSSModules) => {
                 loader: 'css-loader',
                 options: useCSSModules
                     ? {
-                        esModule: true,
-                        modules: {
-                            compileType: 'module',
-                            localIdentName: isDevelopment
-                                ? '[path][name]__[local]--[hash:base64:8]'
-                                : '[hash:base64:8]',
-                        },
-                    }
+                          esModule: true,
+                          modules: {
+                              compileType: 'module',
+                              localIdentName: isDevelopment
+                                  ? '[path][name]__[local]--[hash:base64:8]'
+                                  : '[hash:base64:8]',
+                          },
+                      }
                     : {},
             },
             'postcss-loader',
@@ -114,6 +114,7 @@ module.exports = {
                 {
                     from: path.resolve(__dirname, 'env.js'),
                     to: distPath,
+                    noErrorOnMissing: true,
                 },
             ],
         }),
